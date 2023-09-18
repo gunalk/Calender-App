@@ -1,0 +1,70 @@
+.loginScreen {
+    position: relative;
+    height: 100vh;
+    background: url("https://www.sss-solutions.org/wp-content/uploads/2018/01/1116146294-login-page-background-image-112.jpg")
+      center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+  }
+
+.signInScreen {
+    width: 350px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background:rgba(135, 206, 235,0.5);
+    border-radius:20px ;
+    
+  }
+  
+  .signInScreen > form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signInScreen > form > h1 {
+    text-align: left;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  .signInScreen > form > h4 {
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  .signInScreen-gray {
+    color: gray;
+  }
+  
+  .signInScreen-Link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .signInScreen > form > input {
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+  }
+  
+  .signInScreen > form > button {
+    padding: 16px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+
